@@ -1,0 +1,64 @@
+.field{
+    -fx-border-style: none none solid none;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #005D8B;
+    -fx-background-color: transparent;
+    -fx-pref-height: 30px;
+}
+
+.field-label{
+    -fx-font-family: "Roboto";
+    -fx-text-fill: #005D8B;
+    -fx-border-width: 0 0 2 0;
+    -fx-border-color: #005D8B;
+    -fx-pref-height: 30px;
+}
+
+.button-circle{
+    -fx-background-color: #0086BE;
+    -fx-background-radius: 40;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+    -fx-pref-width: 100px;
+    -fx-pref-height: 30px;
+    -fx-font-family: "Roboto Black";
+}
+
+.button-circle:hover{
+    -fx-background-color: #2980b9;
+}
+
+.button-circle:pressed{
+    -fx-background-color: #005D8B;
+}
+
+.button-close{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+    -fx-pref-width: 30px;
+    -fx-pref-height: 30px;
+    -fx-font-size: 12px;
+}
+
+.button-close:hover{
+    -fx-background-color: RED;
+    -fx-text-fill: WHITE;
+}
+
+.big-label{
+    -fx-font-family: "Roboto Black";
+    -fx-font-size: 30px;
+}
+
+.big-label2{
+    -fx-font-family: "Roboto Black";
+    -fx-text-fill: white;
+    -fx-font-size: 40px;
+}
+
+.big-label3{
+    -fx-font-family: "Roboto Black";
+    -fx-text-fill: white;
+    -fx-font-size: 50px;
+}
+

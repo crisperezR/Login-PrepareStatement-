@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.u2p7_logincss.Controller">
+   <ImageView fitHeight="450.0" fitWidth="225.0" layoutY="-1.0" pickOnBounds="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <Image url="@Images/city.png" />
+   </ImageView>
+   <Label layoutX="249.0" layoutY="164.0" prefWidth="64.0" styleClass="field-label" text="USERNAME" />
+   <TextField fx:id="userField" layoutX="312.0" layoutY="164.0" prefWidth="225.0" promptText="Enter your username" styleClass="field" />
+   <Label layoutX="249.0" layoutY="232.0" styleClass="field-label" text="PASSWORD" />
+   <PasswordField fx:id="passwordField" layoutX="313.0" layoutY="232.0" prefWidth="225.0" styleClass="field" />
+   <Button layoutX="438.0" layoutY="376.0" mnemonicParsing="false" onAction="#handleLogin" styleClass="button-circle" text="LOGIN">
+      <cursor>
+         <Cursor fx:constant="HAND" />
+      </cursor></Button>
+   <Button layoutX="562.0" layoutY="8.0" mnemonicParsing="false" onMouseClicked="#handleClose" styleClass="button-close" text="X" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+   <Label fx:id="label" layoutX="249.0" layoutY="42.0" styleClass="big-label" text="Login" />
+   <Label layoutX="14.0" layoutY="30.0" styleClass="big-label2" text="Hello" />
+   <Label layoutX="14.0" layoutY="65.0" styleClass="big-label3" text="World." />
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>
